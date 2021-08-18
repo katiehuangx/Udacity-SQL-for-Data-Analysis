@@ -2,11 +2,9 @@
 
 ## Course Overview
 
-This is a free SQL course by Udacity focusing on data analysis. 
+This is a **free** ***4-weeks*** **SQL for Data Analysis** course offered by Udacity. 
 
-### Lesson 1: Basic SQL
-
-View my solution [here](https://github.com/katiehuangx/Udacity-SQL-for-Data-Analysis/blob/main/Lesson%201:%20Basic%20SQL.md)!
+### Lesson 1: Basic SQL - View my solution [here](https://github.com/katiehuangx/Udacity-SQL-for-Data-Analysis/blob/main/Lesson%201:%20Basic%20SQL.md)!
 
 ### Lesson 2: SQL Joins
 
@@ -21,7 +19,6 @@ View my solution [here](https://github.com/katiehuangx/Udacity-SQL-for-Data-Anal
 ### Lesson 7: SQL Advanced Joins & Performance Tuning
 
 ***
-
 
 ## Entity Relationship Diagram
 
