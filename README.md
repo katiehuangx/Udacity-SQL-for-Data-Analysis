@@ -4,19 +4,19 @@
 
 This is a **free** ***4-weeks*** **SQL for Data Analysis** course offered by Udacity. 
 
-### Lesson 1: Basic SQL - View my solution [here](https://github.com/katiehuangx/Udacity-SQL-for-Data-Analysis/blob/main/Lesson%201:%20Basic%20SQL.md)!
+Lesson 1: Basic SQL - View my solution [here](https://github.com/katiehuangx/Udacity-SQL-for-Data-Analysis/blob/main/Lesson%201:%20Basic%20SQL.md)!
 
-### Lesson 2: SQL Joins
+Lesson 2: SQL Joins
 
-### Lesson 3: SQL Aggregations
+Lesson 3: SQL Aggregations
 
-### Lesson 4: SQL Subqueries & Temporary Tables
+Lesson 4: SQL Subqueries & Temporary Tables
 
-### Lesson 5: SQL Data Cleaning
+Lesson 5: SQL Data Cleaning
 
-### Lesson 6: SQL Window Functions [Advanced]
+Lesson 6: SQL Window Functions [Advanced]
 
-### Lesson 7: SQL Advanced Joins & Performance Tuning
+Lesson 7: SQL Advanced Joins & Performance Tuning
 
 ***
 
