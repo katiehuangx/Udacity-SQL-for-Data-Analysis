@@ -1,1 +1,3 @@
-# Lesson 2: SQL Joins
+# 📚 Lesson 2: SQL Joins
+
+## 💡 
