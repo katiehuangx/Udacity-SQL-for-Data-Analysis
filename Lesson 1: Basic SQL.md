@@ -112,7 +112,9 @@ FROM orders
 WHERE total_amt_usd < 500
 LIMIT 10;
 ````
+
 3. Filter the accounts table to include the company name, website, and the primary point of contact (primary_poc) just for the Exxon Mobil company in the accounts table.
+4. 
 ````sql
 SELECT 
   name, 
@@ -121,6 +123,7 @@ SELECT
 FROM accounts
 WHERE name = 'Exxon Mobil';
 ````
+
 <img width="666" alt="image" src="https://user-images.githubusercontent.com/81607668/129872195-2e6fbcd5-9639-44b0-b2ad-d51eff58cd3b.png">
 
 ***
@@ -130,6 +133,7 @@ WHERE name = 'Exxon Mobil';
 Using the orders table:
 
 1. Create a column that divides the standard_amt_usd by the standard_qty to find the unit price for standard paper for each order. Limit the results to the first 10 orders, and include the id and account_id fields. 
+2. 
 ````sql
 SELECT 
   id, 
@@ -141,7 +145,8 @@ LIMIT 10;
 
 <img width="555" alt="image" src="https://user-images.githubusercontent.com/81607668/129872915-5b70a589-de60-4973-b7b7-1c6200a277cc.png">
 
-2. Write a query that finds the percentage of revenue that comes from poster paper for each order. You will need to use only the columns that end with _usd. (Try to do this without using the total column.) Display the id and account_id fields also. 
+2. Write a query that finds the percentage of revenue that comes from poster paper for each order. You will need to use only the columns that end with _usd.
+
 ````sql
 SELECT 
   id, 
@@ -150,19 +155,24 @@ SELECT
 FROM orders
 LIMIT 10;
 ````
+
 <img width="557" alt="image" src="https://user-images.githubusercontent.com/81607668/129873291-cae4e079-b62b-4ab0-bc58-01617560712c.png">
+
+***
 
 ## Logical Operators
 
 ### LIKE Operator
-Use the accounts table to find
+Use the accounts table to find:
 
 1. All the companies whose names start with 'C'. 
+
 ````sql
 SELECT *
 FROM accounts
 WHERE name LIKE 'C%';
 ````
+
 <img width="508" alt="image" src="https://user-images.githubusercontent.com/81607668/129873667-f48944f0-44c7-47c2-aaa7-f0e0462cbab0.png">
 
 2. All companies whose names contain the string 'one' somewhere in the name.
@@ -176,7 +186,7 @@ WHERE name LIKE '%one%';
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/81607668/129873761-7b166e38-c4b5-4a73-8840-5cc5b269b398.png">
 
 3. All companies whose names end with 's'.
-4. 
+
 ````sql
 SELECT *
 FROM accounts
@@ -252,7 +262,7 @@ WHERE name NOT LIKE '%one%';
 ````
 
 3. All companies whose names do not end with 's'.
-4. 
+
 ````sql
 SELECT *
 FROM accounts
@@ -293,7 +303,7 @@ WHERE gloss_qty BETWEEN 24 AND 29
 ````
 
 4. Use the web_events table to find all information regarding individuals who were contacted via the organic or adwords channels, and started their account at any point in 2016, sorted from newest to oldest.
-5. 
+
 ````sql
 SELECT *
 FROM web_events
