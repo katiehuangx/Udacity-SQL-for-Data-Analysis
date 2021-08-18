@@ -159,19 +159,19 @@ WHERE name LIKE '%s';
 ### IN Operator
 
 1. Use the accounts table to find the account name, primary_poc, and sales_rep_id for Walmart, Target, and Nordstrom.
-
+````sql
 SELECT name, primary_poc, sales_rep_id
 FROM accounts
 WHERE name IN ('Walmart', 'Target', 'Nordstrom');
-
+````
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/81607668/129874333-116b3d09-7881-41bd-8335-79c320b747c5.png">
 
 2. Use the web_events table to find all information regarding individuals who were contacted via the channel of organic or adwords.
-
+````sql
 SELECT *
 FROM web_events
 WHERE channel IN ('organic', 'adwords');
-
+````
 <img width="744" alt="image" src="https://user-images.githubusercontent.com/81607668/129874495-c3f3ccd1-4597-415a-b529-e92e99042b06.png">
 
 ### NOT Operator
@@ -179,24 +179,28 @@ WHERE channel IN ('organic', 'adwords');
 We can pull all of the rows that were excluded from the queries in the previous two concepts with our new operator.
 
 1. Use the accounts table to find the account name, primary poc, and sales rep id for all stores except Walmart, Target, and Nordstrom.
-
+````sql
 SELECT name, primary_poc, sales_rep_id
 FROM accounts
 WHERE name NOT IN ('Walmart', 'Target', 'Nordstrom');
+````
 
 2. Use the web_events table to find all information regarding individuals who were contacted via any method except using organic or adwords methods.
-
+````sql
 SELECT *
 FROM web_events
 WHERE channel NOT IN ('organic', 'adwords');
+````
 
 Use the accounts table to find:
 
 1. All the companies whose names do not start with 'C'.
 
+````sql
 SELECT *
 FROM accounts
 WHERE name NOT LIKE 'C%';
+````
 
 2. All companies whose names do not contain the string 'one' somewhere in the name.
 
@@ -204,11 +208,14 @@ WHERE name NOT LIKE 'C%';
 SELECT *
 FROM accounts
 WHERE name NOT LIKE '%one%';
+````
 
 3. All companies whose names do not end with 's'.
+````sql
 SELECT *
 FROM accounts
 WHERE name NOT LIKE '%s';
+````
 
 ### AND and BETWEEN Operator
 
