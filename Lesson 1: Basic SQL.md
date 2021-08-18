@@ -10,7 +10,7 @@ FROM web_events
 LIMIT 15;
 ````
 
-<img width="740" alt="image" src="https://user-images.githubusercontent.com/81607668/129868696-65a2b366-837e-47aa-9962-a2a6b9741c0a.png">
+<img width="681" alt="image" src="https://user-images.githubusercontent.com/81607668/129871211-9cdf5e7c-d017-43bb-b4b8-0121e88b66c4.png">
 
 ***
 
@@ -28,7 +28,7 @@ FROM orders
 ORDER BY occurred_at
 LIMIT 10;
 ````
-<img width="749" alt="image" src="https://user-images.githubusercontent.com/81607668/129869176-6732d7f7-d44b-4fa3-aee0-7bac2637cf06.png">
+<img width="662" alt="image" src="https://user-images.githubusercontent.com/81607668/129871282-cf7719ce-14b4-4d11-bf27-bd65c3ad2794.png">
 
 2. Write a query to return the top 5 orders in terms of largest total_amt_usd. Include the id, account_id, and total_amt_usd.
 
@@ -49,7 +49,7 @@ ORDER BY total_amt_usd
 LIMIT 20;
 ````
 
-<img width="635" alt="image" src="https://user-images.githubusercontent.com/81607668/129869548-ec7414c6-f4c9-4fb1-aee5-21a23fc50721.png">
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/81607668/129871321-c1f40f9c-f459-4f46-a94e-987983365360.png">
 
 ### Part 2
 
@@ -61,7 +61,7 @@ FROM orders
 ORDER BY account_id, total_amt_usd DESC;
 ````
 
-<img width="625" alt="image" src="https://user-images.githubusercontent.com/81607668/129870307-19000b56-84fc-4a16-8b06-29159a7c5b9b.png">
+<img width="582" alt="image" src="https://user-images.githubusercontent.com/81607668/129871369-00124b76-294c-4114-ae18-cd2cd576d5e4.png">
 
 2. Now write a query that again displays order ID, account ID, and total dollar amount for each order, but this time sorted first by total dollar amount (in descending order), and then by account ID (in ascending order). 
 
@@ -71,7 +71,7 @@ FROM orders
 ORDER BY total_amt_usd DESC, account_id;
 ````
 
-<img width="601" alt="image" src="https://user-images.githubusercontent.com/81607668/129870411-74e545b7-98ad-4f0d-88f2-ae39c65a9eb0.png">
+<img width="589" alt="image" src="https://user-images.githubusercontent.com/81607668/129871439-817238f1-3c07-4794-b9af-f555e8a25fd0.png">
 
 3. Compare the results of these two queries above. How are the results different when you switch the column you sort on first?
 
@@ -79,4 +79,8 @@ ORDER BY total_amt_usd DESC, account_id;
 
 ## WHERE
 
+Write a query that:
 
+1. Pulls the first 5 rows and all columns from the orders table that have a dollar amount of gloss_amt_usd greater than or equal to 1000.
+
+2. Pulls the first 10 rows and all columns from the orders table that have a total_amt_usd less than 500.
