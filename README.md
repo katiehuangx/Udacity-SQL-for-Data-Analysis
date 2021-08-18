@@ -1,6 +1,27 @@
-# Udacity Course: SQL for Data Analysis
+# 📊 Udacity Course: SQL for Data Analysis
 
 ## Course Overview
+
+This is a free SQL course by Udacity focusing on data analysis. 
+
+### Lesson 1: Basic SQL
+
+View my solution [here](https://github.com/katiehuangx/Udacity-SQL-for-Data-Analysis/blob/main/Lesson%201:%20Basic%20SQL.md)!
+
+### Lesson 2: SQL Joins
+
+### Lesson 3: SQL Aggregations
+
+### Lesson 4: SQL Subqueries & Temporary Tables
+
+### Lesson 5: SQL Data Cleaning
+
+### Lesson 6: SQL Window Functions [Advanced]
+
+### Lesson 7: SQL Advanced Joins & Performance Tuning
+
+***
+
 
 ## Entity Relationship Diagram
 
