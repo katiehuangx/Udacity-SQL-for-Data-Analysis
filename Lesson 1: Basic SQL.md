@@ -1,6 +1,6 @@
-# 1️⃣ Lesson 1: Basic SQL
+# 📚 Lesson 1: Basic SQL
 
-## LIMIT
+## ⚡️ LIMIT
 
 Try using LIMIT yourself below by writing a query that displays all the data in the occurred_at, account_id, and channel columns of the web_events table, and limits the output to only the first 15 rows.
 
@@ -17,7 +17,7 @@ LIMIT 15;
 
 ***
 
-## ORDER BY
+## ⚡️ ORDER BY
 
 ### Part 1
 
@@ -93,7 +93,7 @@ ORDER BY total_amt_usd DESC, account_id;
 
 ***
 
-## WHERE
+## ⚡️ WHERE
 
 Write a query that:
 
@@ -128,7 +128,7 @@ WHERE name = 'Exxon Mobil';
 
 ***
 
-## Arithmetic Operators
+## ⚡️ Arithmetic Operators
 
 Using the orders table:
 
@@ -160,7 +160,7 @@ LIMIT 10;
 
 ***
 
-## Logical Operators
+## ⚡️ Logical Operators
 
 ### LIKE Operator
 Use the accounts table to find:
