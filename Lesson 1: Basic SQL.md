@@ -1,6 +1,16 @@
 # 📚 Lesson 1: Basic SQL
 
-## ⚡️ LIMIT
+## ⚡️ Table of Contents
+
+- [LIMIT](#limit)
+- [ORDER BY](#order-by)
+- [WHERE](#where)
+- [Arithmetic Operators](#arithmetic-operators)
+- [Logical Operators](#logical-operators)
+
+***
+
+## LIMIT
 
 Try using LIMIT yourself below by writing a query that displays all the data in the occurred_at, account_id, and channel columns of the web_events table, and limits the output to only the first 15 rows.
 
@@ -17,7 +27,7 @@ LIMIT 15;
 
 ***
 
-## ⚡️ ORDER BY
+## ORDER BY
 
 ### Part 1
 
@@ -93,7 +103,7 @@ ORDER BY total_amt_usd DESC, account_id;
 
 ***
 
-## ⚡️ WHERE
+## WHERE
 
 Write a query that:
 
@@ -128,12 +138,12 @@ WHERE name = 'Exxon Mobil';
 
 ***
 
-## ⚡️ Arithmetic Operators
+## Arithmetic Operators
 
 Using the orders table:
 
 1. Create a column that divides the standard_amt_usd by the standard_qty to find the unit price for standard paper for each order. Limit the results to the first 10 orders, and include the id and account_id fields. 
-2. 
+
 ````sql
 SELECT 
   id, 
@@ -160,9 +170,10 @@ LIMIT 10;
 
 ***
 
-## ⚡️ Logical Operators
+## Logical Operators
 
 ### LIKE Operator
+
 Use the accounts table to find:
 
 1. All the companies whose names start with 'C'. 
@@ -341,3 +352,5 @@ WHERE (name LIKE 'C%' OR name LIKE 'W%')
   AND (primary_poc LIKE '%ana%' OR primary_poc LIKE '%Ana%') 
   AND primary_poc NOT LIKE '%eana%';
 ````
+
+***
