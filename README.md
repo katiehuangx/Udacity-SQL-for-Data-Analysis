@@ -16,7 +16,17 @@ This is a **free** ***4-weeks*** [**SQL for Data Analysis**](https://www.udacity
 
 ## Entity Relationship Diagram
 
+In the Parch & Posey database, there are 5 tables:
+
+- web_events
+- accounts
+- orders
+- sales_reps
+- region
+
 ![image](https://user-images.githubusercontent.com/81607668/129864934-84e25368-7b19-430e-a5e4-2ab48e2dd9d2.png)
 
+The PK stands for primary key. A primary key exists in every table, and it is a column that has a unique value for every row.
+FK stands for foreign key. A foreign key may or may not exist in every table.
 
-
+***
